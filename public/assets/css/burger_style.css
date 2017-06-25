@@ -1,8 +1,15 @@
 body {
-    background-color: yellow;
+    background-image: url("https://www.developertown.com/wp-content/uploads/2015/08/shutterstock_271989407-reversed.png");
+    background-position: center;
+    background-size: cover;
 }
 
 img,
+h1 {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
 .footer {
     text-align: center;
 }
@@ -24,7 +31,7 @@ ul {
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background-color: rgba(250, 235, 215, 0.75);
 }
 
 .label {
@@ -34,7 +41,7 @@ li {
 .create-update-form {
     padding: 5px;
     margin: 5px;
-    background: aqua;
+    background-color: rgba(250, 235, 215, 0.75);
     /*width: 70%;*/
 }
 

@@ -5,7 +5,9 @@
 <img width ="200" height = "200" src="../assets/img/burger.png"/>
 </div>
 
-<h2>burgers that are un-devoured!</h2>
+<div class="mother">
+<div class="left">
+{{!--<h2>un-devoured!</h2>--}}
 
 
 <ul>
@@ -24,8 +26,10 @@
     {{/unless}}
   {{/each}}
 </ul>
+</div>
 
-<h2>burgers that are devoured!</h2>
+<div class="right">
+{{!--<h2>devoured!</h2>--}}
 
 <ul>
   {{#each burgers}}
@@ -43,7 +47,11 @@
     {{/if}}
   {{/each}}
 </ul>
+</div>
 
+</div>
+
+<div class="footer">
 <h2>Add a burger</h2>
 <form class="create-update-form" action="/" method="POST">
 
@@ -60,3 +68,5 @@
 
   <button type="submit">Add burger</button>
 </form>
+
+</div>

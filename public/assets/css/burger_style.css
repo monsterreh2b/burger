@@ -1,5 +1,6 @@
 body {
-    background-image: url("https://www.developertown.com/wp-content/uploads/2015/08/shutterstock_271989407-reversed.png");
+    /*background-image: url("https://www.developertown.com/wp-content/uploads/2015/08/shutterstock_271989407-reversed.png");*/
+    background-image: url(../img/backgroundy-min.png);
     background-position: center;
     background-size: cover;
 }

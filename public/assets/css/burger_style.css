@@ -1,3 +1,16 @@
+body {
+    background-color: yellow;
+}
+
+img {
+    text-align: center;
+}
+
+.pic,
+.title {
+    text-align: center;
+}
+
 li {
     padding: 5px;
     margin: 5px;
